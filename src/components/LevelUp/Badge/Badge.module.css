@@ -1,0 +1,82 @@
+.badge {
+    flex-grow: .5;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.badge img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+.shwitcho {
+    animation: blurScale 3s ease-in-out;
+}
+
+
+@keyframes blurScale {
+
+
+    0% {
+        transform: scale(.5);
+        filter: blur(10px);
+    }
+
+    20% {
+        transform: scale(.4);
+        filter: blur(150px);
+    }
+
+    30% {
+        transform: scale(.6);
+        filter: blur(80px);
+    }
+
+    50% {
+        transform: scale(.8);
+        filter: blur(30px);
+    }
+
+    100% {
+        transform: scale(1);
+        filter: blur(0);
+    }
+}
+
+@keyframes rotate {
+
+    0% {
+        opacity: 1;
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(70deg);
+
+    }
+
+    50% {
+        transform: rotate(100deg);
+
+    }
+
+    100% {
+        transform: rotate(180deg);
+
+    }
+
+}

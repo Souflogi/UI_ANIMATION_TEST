@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
+    height: 3rem;
+}
+
+input[type=text] {
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #fff;
+    border-radius: 15px;
+    color: #445EF1;
+    outline: none
+}
+
+input[type=text]:focus {
+    box-shadow: 0 3px 30px #fff;
+}
+
+button {
+    border: none;
+    color: inherit;
+    background: linear-gradient(90deg, #445EF1 -2.33%, #0FC9F2 100%);
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    box-shadow: 0 3px 30px -5px #445EF1, 0 2px 30px #0FC9F2;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(2px);
+}

@@ -1,0 +1,11 @@
+.level-up {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column;
+    min-height: 90%;
+    width: 60%;
+
+}

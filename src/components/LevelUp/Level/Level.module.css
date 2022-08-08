@@ -1,0 +1,14 @@
+.level {
+    flex: 1;
+    height: 5rem;
+}
+
+.level p {
+    color: transparent;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    background-image: linear-gradient(to bottom, #ece072 24%, #b39b4d 26%, #eeda28 28%, #f5e028 29%, #f8cf17 45%, #3a2c1f 65%);
+    filter: drop-shadow(0 2px 12px #0FC9F2) brightness(200%);
+    background-clip: text;
+    -webkit-text-stroke: #f8cf17 1px;
+}

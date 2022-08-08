@@ -1,0 +1,45 @@
+.progress-bar {
+
+    height: 1.2rem;
+    width: 100%;
+    background-color: rgba(107, 105, 105, 0.459);
+
+
+}
+
+.progress-fill {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg, #445EF1 -2.33%, #0FC9F2 100%);
+    box-shadow: 0 3px 30px -5px #445EF1, 0 2px 30px #0FC9F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+
+.progress-bar, .progress-fill {
+    border-radius: 124.014px;
+}
+
+.progress-score {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+
+.progress-star {
+    position: absolute;
+    right: -20px;
+    height: 3rem;
+    width: 3rem;
+    fill: #F3D98E;
+    filter: drop-shadow(0 -5px 20px #F3D98E);
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@100;200;400;700&family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+
+
+/* Preferred box-sizing value */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a, button {
+    cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol, ul, menu {
+    list-style: none;
+}
+
+
+
+body {
+    font-family: 'Anton', sans-serif;
+}
