@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/UI_ANIMATION_TEST/static/css/main.b1aaa513.css",
+    "main.js": "/UI_ANIMATION_TEST/static/js/main.ba2ac9cf.js",
+    "static/media/level-5.png": "/UI_ANIMATION_TEST/static/media/level-5.6ce054786113726edb80.png",
+    "static/media/level-4.png": "/UI_ANIMATION_TEST/static/media/level-4.91fa1dc83c39cd37816e.png",
+    "static/media/level-6.png": "/UI_ANIMATION_TEST/static/media/level-6.7a8b10aa3e8ef71fc526.png",
+    "static/media/level-3.png": "/UI_ANIMATION_TEST/static/media/level-3.33b52e905d5b266157e6.png",
+    "static/media/level-2.png": "/UI_ANIMATION_TEST/static/media/level-2.88ef3b0c58c9d2ed4329.png",
+    "static/media/level-1.png": "/UI_ANIMATION_TEST/static/media/level-1.a10447f03240b00a04d1.png",
+    "index.html": "/UI_ANIMATION_TEST/index.html",
+    "main.b1aaa513.css.map": "/UI_ANIMATION_TEST/static/css/main.b1aaa513.css.map",
+    "main.ba2ac9cf.js.map": "/UI_ANIMATION_TEST/static/js/main.ba2ac9cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1aaa513.css",
+    "static/js/main.ba2ac9cf.js"
+  ]
+}
